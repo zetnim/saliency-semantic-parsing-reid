@@ -818,6 +818,7 @@ class iLIDSVID(object):
 
         print("Downloading iLIDS-VID dataset")
         url_opener = urllib.URLopener()
+        
         url_opener.retrieve(self.dataset_url, fpath)
 
         print("Extracting files")
